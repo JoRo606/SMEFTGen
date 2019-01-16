@@ -1,2 +1,2 @@
-# Generation SMEFT
-Automatic generation of higher dimensional operators in Standard Model effective field theory (SMEFT)
+# SMEFTGen
+Automatic generation of higher dimensional operators in Standard Model effective field theory (SMEFT). The goal of this program is to automatically generate all operators of SMEFT up to a specified mass dimension. Current code concerns implementation in the simplest case of a scalar field theory with phi -> -phi symmetry, in order to test implementation of integration by parts and equations of motion without distraction of added complexities brought by multiple fermi and gauge fields. The case of the scalar field will provide a framework for generalization to more complicated case of SM fields. 
