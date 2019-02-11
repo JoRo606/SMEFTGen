@@ -1,0 +1,84 @@
+[('-1/4','e[ab] e[cd] d[ef] d[gh] H![f] H![h] D[ad]H[e] D[bc]H[g]'),('-1/4','e[ab] e[cd] d[ef] d[gh] D[ad]H![f] D[bc]H![h] H[e] H[g]'),('-1/2','e[ab] e[cd] d[ef] d[gh] D[ad]H![h] H![f] D[bc]H[e] H[g]')]:H
+[('-1/4','e[ab] e[cd] d[ef] d[gh] H![f] H![h] D[ad]H[e] D[bc]H[g]'),('-1/4','e[ab] e[cd] d[ef] d[gh] D[ad]H![f] D[bc]H![h] H[e] H[g]'),('1/2','e[ab] e[cd] d[ef] d[gh] D[ad]H![h] H![f] D[bc]H[e] H[g]')]:T
+[('-1/(4*g**2)','e[ab] e[cd] e[ef] e[gh] d[ij] d[kl] D[fh]W[ebil] D[cg]W[dakj]'),('-1/(4*g**2)','e[ab] e[cd] e[ef] e[gh] d[ij] d[kl] D[ag]W![hfli] D[bc]W![dejk]'),('-1/(2*g**2)','e[ab] e[cd] e[ef] e[gh] d[ij] d[kl] D[de]W![hfli] D[bg]W[ackj]')]:2W
+[('-I/(2*g)','e[ab] e[cd] e[ef] d[gh] d[ij] H![j] D[df]H[g] D[be]W[acih]'),('I/(2*g)','e[ab] e[cd] e[ef] d[gh] d[ij] D[df]H![j] H[g] D[be]W[acih]'),('-I/(2*g)','e[ab] e[cd] e[ef] d[gh] d[ij] H![j] D[af]H[g] D[bc]W![dehi]'),('I/(2*g)','e[ab] e[cd] e[ef] d[gh] d[ij] D[af]H![j] H[g] D[bc]W![dehi]')]:W
+[('-I*gp/(4*g**2)','e[ab] e[cd] e[ef] d[gh] H![h] D[df]H[g] D[be]B[ac]'),('I*gp/(4*g**2)','e[ab] e[cd] e[ef] d[gh] D[df]H![h] H[g] D[be]B[ac]'),('-I*gp/(4*g**2)','e[ab] e[cd] e[ef] d[gh] H![h] D[af]H[g] D[bc]B![de]'),('I*gp/(4*g**2)','e[ab] e[cd] e[ef] d[gh] D[af]H![h] H[g] D[bc]B![de]')]:B
+[('I/g','e[ab] e[cd] e[ef] d[gh] d[ij] D[df]H![j] D[ae]H[g] W[bcih]'),('I/g','e[ab] e[cd] e[ef] d[gh] d[ij] D[af]H![j] D[bd]H[g] W![cehi]')]:HW
+[('-1/g','e[ab] e[cd] e[ef] d[gh] d[ij] D[df]H![j] D[ae]H[g] W[bcih]'),('1/g','e[ab] e[cd] e[ef] d[gh] d[ij] D[af]H![j] D[bd]H[g] W![cehi]')]:HW~
+[('I*gp/(2*g**2)','e[ab] e[cd] e[ef] d[gh] D[df]H![h] D[ae]H[g] B[bc]'),('I*gp/(2*g**2)','e[ab] e[cd] e[ef] d[gh] D[af]H![h] D[bd]H[g] B![ce]')]:HB
+[('-gp/(2*g**2)','e[ab] e[cd] e[ef] d[gh] D[df]H![h] D[ae]H[g] B[bc]'),('gp/(2*g**2)','e[ab] e[cd] e[ef] d[gh] D[af]H![h] D[bd]H[g] B![ce]')]:HB~
+[('I*g/2','e[ab] e[cd] e[ef] d[gh] d[ij] d[kl] W[adgl] W[beih] W[cfkj]'),('I*g/2','e[ab] e[cd] e[ef] d[gh] d[ij] d[kl] W![fdlg] W![bchi] W![eajk]')]:3W
+[('-g/2','e[ab] e[cd] e[ef] d[gh] d[ij] d[kl] W[adgl] W[beih] W[cfkj]'),('g/2','e[ab] e[cd] e[ef] d[gh] d[ij] d[kl] W![fdlg] W![bchi] W![eajk]')]:3W~
+[('gp**2/(2*g**2)','e[ab] e[cd] d[ef] H![f] H[e] B[cb] B[ad]'),('-gp**2/(2*g**2)','e[ab] e[cd] d[ef] H![f] H[e] B![db] B![ac]')]:gamma
+[('I*gp**2/(2*g**2)','e[ab] e[cd] d[ef] H![f] H[e] B[cb] B[ad]'),('I*gp**2/(2*g**2)','e[ab] e[cd] d[ef] H![f] H[e] B![db] B![ac]')]:gamma~
+[('-lamb','d[ab] d[cd] d[ef] H![b] H![d] H![f] H[a] H[c] H[e]')]:6
+[('2','e[ab] e[cd] eR![a] eR![b] eR[d] eR[c]')]:ee
+[('2','e[ab] e[cd] d[ef] d[gh] dR![af] dR![bh] dR[de] dR[cg]')]:dd
+[('-2','e[ab] e[cd] d[ef] eR![a] eR[d] uR![bf] uR[ce]')]:eu
+[('-2','e[ab] e[cd] d[ef] eR![a] eR[d] dR![bf] dR[ce]')]:ed
+[('-2','e[ab] e[cd] d[ef] d[gh] uR![af] uR[de] dR![bh] dR[cg]')]:ud
+[('-1','e[ab] e[cd] d[ef] d[gh] uR![ah] uR[de] dR![bf] dR[cg]'),('1/3','e[ab] e[cd] d[ef] d[gh] uR![af] uR[de] dR![bh] dR[cg]')]:udprime
+[('2','e[ab] e[cd] d[ef] d[gh] d[ij] d[kl] qL![dfj] qL![chl] qL[aei] qL[bgk]')]:qq
+[('4','e[ab] e[cd] d[ef] d[gh] d[ij] d[kl] qL![dfl] qL![chj] qL[aei] qL[bgk]'),('-2','e[ab] e[cd] d[ef] d[gh] d[ij] d[kl] qL![dfj] qL![chl] qL[aei] qL[bgk]')]:qqprime
+[('-2','e[ab] e[cd] d[ef] d[gh] d[ij] lL![df] lL[ae] qL![chj] qL[bgi]')]:lq
+[('-4','e[ab] e[cd] d[ef] d[gh] d[ij] lL![dh] lL[ae] qL![cfj] qL[bgi]'),('2','e[ab] e[cd] d[ef] d[gh] d[ij] lL![df] lL[ae] qL![chj] qL[bgi]')]:lqprime
+[('-2','e[ab] e[cd] d[ef] eR![a] eR[d] lL![cf] lL[be]')]:le
+[('-2','e[ab] e[cd] d[ef] d[gh] lL![df] lL[ae] dR![bh] dR[cg]')]:ld
+[('-2','e[ab] e[cd] d[ef] d[gh] eR![a] eR[d] qL![cfh] qL[beg]')]:eq
+[('-2','e[ab] e[cd] d[ef] d[gh] d[ij] qL![dfh] qL[aeg] uR![bj] uR[ci]')]:qu
+[('-2','e[ab] e[cd] d[ef] d[gh] d[ij] qL![dfh] qL[aeg] dR![bj] dR[ci]')]:qd
+[('-1','e[ab] e[cd] d[ef] d[gh] d[ij] qL![dfj] qL[aeg] uR![bh] uR[ci]'),('1/3','e[ab] e[cd] d[ef] d[gh] d[ij] qL![dfh] qL[aeg] uR![bj] uR[ci]')]:quprime
+[('-1','e[ab] e[cd] d[ef] d[gh] d[ij] qL![dfj] qL[aeg] dR![bh] dR[ci]'),('1/3','e[ab] e[cd] d[ef] d[gh] d[ij] qL![dfh] qL[aeg] dR![bj] dR[ci]')]:qdprime
+[('1','e[ab] e[cd] d[ef] d[gh] eR[d] lL![cf] qL[aeg] dR![bh]')]:ledq
+[('1','e[ab] e[cd] d[ef] d[gh] eR![a] lL[be] qL![dfh] dR[cg]')]:ledqdagger
+[('-1','e[ab] e[cd] e[ef] d[gh] d[ij] qL![dej] qL![bfh] uR[ag] dR[ci]')]:quqd
+[('-1','e[ab] e[cd] e[ef] d[gh] d[ij] qL[ceg] qL[bfi] uR![aj] dR![dh]')]:quqddagger
+[('-1/2','e[ab] e[cd] e[ef] d[gh] d[ij] qL![deh] qL![bfj] uR[ag] dR[ci]'),('1/6','e[ab] e[cd] e[ef] d[gh] d[ij] qL![dej] qL![bfh] uR[ag] dR[ci]')]:quqdprime
+[('-1/2','e[ab] e[cd] e[ef] d[gh] d[ij] qL[ceg] qL[bfi] uR![ah] dR![dj]'),('1/6','e[ab] e[cd] e[ef] d[gh] d[ij] qL[ceg] qL[bfi] uR![aj] dR![dh]')]:quqdprimedagger
+[('1','e[ab] e[cd] e[ef] d[gh] eR[d] lL![ce] qL![bfh] uR[ag]')]:lequ
+[('2','e[ab] e[cd] e[ef] d[gh] eR[d] lL![be] qL![cfh] uR[ag]'),('-1','e[ab] e[cd] e[ef] d[gh] eR[d] lL![ce] qL![bfh] uR[ag]')]:lequprime
+[('1','e[ab] e[cd] e[ef] d[gh] eR![a] lL[be] qL[dfg] uR![ch]')]:lequdagger
+[('2','e[ab] e[cd] e[ef] d[gh] eR![a] lL[de] qL[bfg] uR![ch]'),('-1','e[ab] e[cd] e[ef] d[gh] eR![a] lL[be] qL[dfg] uR![ch]')]:lequprimedagger
+[('1','e[ab] e[cd] e[ef] e[ghi] lL[ae] qL[bfh] uR[di] dR[cg]')]:duq
+[('1','e[ab] e[cd] e[ef] e[ghi] lL![de] qL![cfh] uR![ai] dR![bg]')]:duqdagger
+[('-1','e[ab] e[cd] e[ef] e[ghi] eR[d] qL[aeh] qL[bfi] uR[cg]')]:qqu
+[('-1','e[ab] e[cd] e[ef] e[ghi] eR![a] qL![deh] qL![cfi] uR![bg]')]:qqudagger
+[('1','e[ab] e[cd] e[ef] e[gh] e[ijk] lL[cg] qL[bfj] qL[aek] qL[dhi]')]:qqq1
+[('1','e[ab] e[cd] e[ef] e[gh] e[ijk] lL![dg] qL![bfj] qL![aek] qL![chi]')]:qqq1dagger
+[('1','e[ab] e[cd] e[efg] eR[d] uR[bf] uR[cg] dR[ae]')]:duu
+[('1','e[ab] e[cd] e[efg] eR![a] uR![df] uR![bg] dR![ce]')]:duudagger
+[('I*gs**3/(2*g**2)','e[ab] e[cd] e[ef] d[gh] d[ij] d[kl] G[adgl] G[beih] G[cfkj]'),('I*gs**3/(2*g**2)','e[ab] e[cd] e[ef] d[gh] d[ij] d[kl] G![fdlg] G![bchi] G![eajk]')]:3G
+[('-gs**3/(2*g**2)','e[ab] e[cd] e[ef] d[gh] d[ij] d[kl] G[adgl] G[beih] G[cfkj]'),('gs**3/(2*g**2)','e[ab] e[cd] e[ef] d[gh] d[ij] d[kl] G![fdlg] G![bchi] G![eajk]')]:3Gtilde
+[('gs**2/(g**2)','e[ab] e[cd] d[ef] d[gh] d[ij] H![f] H[e] G[cbgj] G[adih]'),('-gs**2/(g**2)','e[ab] e[cd] d[ef] d[gh] d[ij] H![f] H[e] G![dbjg] G![achi]')]:G
+[('I*gs**2/(g**2)','e[ab] e[cd] d[ef] d[gh] d[ij] H![f] H[e] G[cbgj] G[adih]'),('I*gs**2/(g**2)','e[ab] e[cd] d[ef] d[gh] d[ij] H![f] H[e] G![dbjg] G![achi]')]:Gtilde
+[('ye','e[ab] d[cd] d[ef] H![d] H[c] H[e] eR[b] lL![af]')]:e
+[('yed','e[ab] d[cd] d[ef] H![d] H![f] H[c] eR![a] lL[be]')]:edagger
+[('yd','e[ab] d[cd] d[ef] d[gh] H![d] H[c] H[e] qL![bfh] dR[ag]')]:d
+[('ydd','e[ab] d[cd] d[ef] d[gh] H![d] H![f] H[c] qL[aeg] dR![bh]')]:ddagger
+[('yu','e[ab] e[cd] d[ef] d[gh] H![f] H![d] H[e] qL![bch] uR[ag]')]:u
+[('-yud','e[ab] e[cd] d[ef] d[gh] H![f] H[e] H[d] qL[acg] uR![bh]')]:udagger
+[('-2*I*gp*ye/g**2','d[ab] d[cd] d[ef] H[e] B![bd] eR[a] lL![cf]')]:eB
+[('2*I*gp*yed/g**2','d[ab] d[cd] d[ef] H![f] B[bd] eR![a] lL[ce]')]:eBdagger
+[('2*I*gp*yd/g**2','d[ab] d[cd] d[ef] d[gh] H[e] B![bd] qL![afh] dR[cg]')]:dB
+[('-2*I*gp*ydd/g**2','d[ab] d[cd] d[ef] d[gh] H![f] B[bd] qL[aeg] dR![ch]')]:dBdagger
+[('-2*I*gp*yu/g**2','d[ab] d[cd] e[ef] d[gh] H![e] B![bd] qL![afh] uR[cg]')]:uB
+[('-2*I*gp*yud/g**2','d[ab] d[cd] e[ef] d[gh] H[e] B[bd] qL[afg] uR![ch]')]:uBdagger
+[('-4*I*ye/g','d[ab] d[cd] d[ef] d[gh] H[e] eR[a] lL![ch] W![bdfg]')]:eW
+[('-4*I*yed/g','d[ab] d[cd] d[ef] d[gh] H![h] eR![a] lL[ce] W[bdgf]')]:eWdagger
+[('4*I*yd/g','d[ab] d[cd] d[ef] d[gh] d[ij] H[e] qL![ahj] dR[ci] W![bdfg]')]:dW
+[('-4*I*ydd/g','d[ab] d[cd] d[ef] d[gh] d[ij] H![h] qL[aei] dR![cj] W[bdgf]')]:dWdagger
+[('4*I*gs*yd/g**2','d[ab] d[cd] d[ef] d[gh] d[ij] H[e] qL![afj] dR[cg] G![bdhi]')]:dG
+[('-4*I*gs*ydd/g**2','d[ab] d[cd] d[ef] d[gh] d[ij] H![f] qL[aeg] dR![cj] G[bdih]')]:dGdagger
+[('-4*I*yu/g','d[ab] d[cd] e[ef] d[gh] d[ij] H![e] qL![ahj] uR[ci] W![bdfg]')]:uW
+[('-4*I*yud/g','d[ab] d[cd] e[ef] d[gh] d[ij] H[e] qL[agi] uR![cj] W[bdfh]')]:uWdagger
+[('-4*I*gs*yu/g**2','d[ab] d[cd] e[ef] d[gh] d[ij] H![e] qL![afj] uR[cg] G![bdhi]')]:uG
+[('-4*I*gs*yud/g**2','d[ab] d[cd] e[ef] d[gh] d[ij] H[e] qL[afg] uR![cj] G[bdih]')]:uGdagger
+[('I','d[ab] d[cd] d[ef] H![f] D[bd]H[e] eR![a] eR[c]'),('-I','d[ab] d[cd] d[ef] D[bd]H![f] H[e] eR![a] eR[c]')]:He
+[('I','d[ab] d[cd] d[ef] d[gh] H![f] D[bd]H[e] uR![ah] uR[cg]'),('-I','d[ab] d[cd] d[ef] d[gh] D[bd]H![f] H[e] uR![ah] uR[cg]')]:Hu
+[('I','d[ab] d[cd] d[ef] d[gh] H![f] D[bd]H[e] dR![ah] dR[cg]'),('-I','d[ab] d[cd] d[ef] d[gh] D[bd]H![f] H[e] dR![ah] dR[cg]')]:Hd
+[('I','d[ab] d[cd] d[ef] d[gh] d[ij] H![f] D[bd]H[e] qL![chj] qL[agi]'),('-I','d[ab] d[cd] d[ef] d[gh] d[ij] D[bd]H![f] H[e] qL![chj] qL[agi]')]:Hq
+[('-I','d[ab] d[cd] e[ef] d[gh] D[bd]H[e] H[f] uR![ah] dR[cg]')]:Hud
+[('-I','d[ab] d[cd] e[ef] d[gh] D[bd]H![e] H![f] uR[cg] dR![ah]')]:Huddagger
+[('2*I','d[ab] d[cd] d[ef] d[gh] d[ij] H![h] D[bd]H[e] qL![cfj] qL[agi]'),('-2*I','d[ab] d[cd] d[ef] d[gh] d[ij] D[bd]H![h] H[e] qL![cfj] qL[agi]'),('-I','d[ab] d[cd] d[ef] d[gh] d[ij] H![f] D[bd]H[e] qL![chj] qL[agi]'),('I','d[ab] d[cd] d[ef] d[gh] d[ij] D[bd]H![f] H[e] qL![chj] qL[agi]')]:Hqprime
+[('-1/(4*g**2)','e[ab] e[cd] e[ef] e[gh] d[ij] d[kl] D[fh]G[ebil] D[cg]G[dakj]'),('-1/(4*g**2)','e[ab] e[cd] e[ef] e[gh] d[ij] d[kl] D[ag]G![hfli] D[bc]G![dejk]'),('-1/(2*g**2)','e[ab] e[cd] e[ef] e[gh] d[ij] d[kl] D[de]G![hfli] D[bg]G[ackj]')]:2G
+[('-1/(8*g**2)','e[ab] e[cd] e[ef] e[gh] D[fh]B[eb] D[cg]B[da]'),('-1/(8*g**2)','e[ab] e[cd] e[ef] e[gh] D[ag]B![hf] D[bc]B![de]'),('-1/(4*g**2)','e[ab] e[cd] e[ef] e[gh] D[de]B![hf] D[bg]B[ac]')]:2B
